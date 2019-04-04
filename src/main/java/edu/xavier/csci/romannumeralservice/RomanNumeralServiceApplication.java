@@ -1,13 +1,13 @@
-package edu.xavier.csci.romannumeralwebapp;
+package edu.xavier.csci.romannumeralservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RomanNumeralWebAppApplication {
+public class RomanNumeralServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RomanNumeralWebAppApplication.class, args);
+		SpringApplication.run(RomanNumeralServiceApplication.class, args);
 	}
 
 }
