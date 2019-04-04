@@ -4,6 +4,6 @@ public class ResponseSingleEncode {
 
     private String romanNumeral;
     public String getRomanNumeral() {return romanNumeral; }
-    public void setNumber(String roNum) { romanNumeral = roNum; }
+    public void setRomanNumeral(String roNum) { romanNumeral = roNum; }
 
 }
