@@ -5,17 +5,20 @@ plugins {
 
 apply plugin: 'io.spring.dependency-management'
 
-group = 'edu.xavier.csci'
+group = 'edu.xavier.csci.daniel-mcmullen'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
 repositories {
+	jcenter()
 	mavenCentral()
+	mavenLocal()
 }
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'edu.xavier.csci.daniel-mcmullen:RomanNumeralApplication:1.0'
 	runtimeOnly 'org.springframework.boot:spring-boot-devtools'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }

@@ -1,4 +1,4 @@
-package edu.xavier.csci.romannumeralservice;
+package edu.xavier.csci;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
