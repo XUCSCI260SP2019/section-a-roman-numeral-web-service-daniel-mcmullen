@@ -13,7 +13,7 @@ public class CustomerController {
     public String root(){
         return "n/a";
     }
-git
+
     @GetMapping("/decode/{id}")
 
     public ResponseSingleDecode encode(@PathVariable("id") String num) {
